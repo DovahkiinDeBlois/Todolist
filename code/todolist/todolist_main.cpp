@@ -6,6 +6,7 @@ Todolist_Main::Todolist_Main(QWidget *parent) :
     ui(new Ui::Todolist_Main)
 {
     ui->setupUi(this);
+    this->ui->stackedWidget->setCurrentIndex(1);
 }
 
 Todolist_Main::~Todolist_Main()

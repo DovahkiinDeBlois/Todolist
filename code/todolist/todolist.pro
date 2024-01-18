@@ -34,7 +34,8 @@ HEADERS += \
         todolist_main.h \
     fundamental_function/timeing_synchronization.h \
     resource/Qt_My_UI_Classs/todo_item/todo_item.h \
-    resource/Qt_My_UI_Classs/todo_table/todo_table.h
+    resource/Qt_My_UI_Classs/todo_table/todo_table.h \
+    basic_definition/basic_definition.h
 
 FORMS += \
         todolist_main.ui \
