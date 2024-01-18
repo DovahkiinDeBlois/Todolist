@@ -1,2 +1,97 @@
 *.autosave
 /.vscode/
+/code/build-todolist-Desktop_Qt_5_9_0_MinGW_32bit-Debug/
+
+# C++相关
+*.o
+*.obj
+*.a
+*.lo
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+*.exe
+*.app
+*.out
+*.bc
+
+# Qt临时文件
+*.pro.user*
+*.pro.user.*
+*.qbs.user*
+*.qbs.user.*
+*.pro.shared
+*.pro.shared.*
+*.qbs.shared
+*.qbs.shared.*
+*.pri.user
+*.pri.shared
+*.prf.user
+*.prf.shared
+*.qph
+*.prl
+*-qmlcache
+*-qmljsdebugger
+.qmllint
+
+# QtCreator产生的临时文件/目录
+ui_*.h
+ui_*.hpp
+moc_*.cpp
+moc_*.h
+moc_*.hpp
+qrc_*.cpp
+*_plugin_import.cpp
+*.qmlc
+*.jsc
+*.pdb
+*.ilk
+
+# QML文件应该加进版本控制，但是缓存文件不应该
+*.qmlproject.user
+*.qmlproject.user.*
+
+# Qt Creator CMake生成文件
+CMakeLists.txt.user*
+CMakeLists.txt.user.*
+CMakeLists.txt.autosave
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# QMake生成文件
+*.pro.user
+*.pro.ata
+*.pro.shared
+Makefile*
+*.mk
+*.pri
+*.depends
+*.autosave
+debug/
+release/
+*Debug/
+*Release/
+.generated/
+object_script.*
+
+# Shadow build folder, which might be used to keep build artifacts out of the source tree
+build-*/
+
+# 如果使用版本管理系统(e.g. git)
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.sdf
+
+# 其它IDE或编辑器产生的临时文件
+*.swp
+*~
+.DS_Store
+Thumbs.db
+*.sublime-*
