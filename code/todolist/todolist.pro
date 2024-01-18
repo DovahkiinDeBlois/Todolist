@@ -26,13 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         todolist_main.cpp \
-    timeing_synchronization.cpp \
+    fundamental_function/timeing_synchronization.cpp \
     resource/Qt_My_UI_Classs/todo_item/todo_item.cpp \
     resource/Qt_My_UI_Classs/todo_table/todo_table.cpp
 
 HEADERS += \
         todolist_main.h \
-    timeing_synchronization.h \
+    fundamental_function/timeing_synchronization.h \
     resource/Qt_My_UI_Classs/todo_item/todo_item.h \
     resource/Qt_My_UI_Classs/todo_table/todo_table.h
 
